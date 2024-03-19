@@ -42,7 +42,7 @@ function NavigationBar() {
         </Typography>
 
         <Button component={RouterLink} to="/" color="inherit" style={{ marginLeft: 'auto',  color: 'black' }}>
-          Home
+         Home
         </Button>
         <Button component={RouterLink} to="/browse" color="inherit" style={{ color: 'black' }}>
           Browse Ads
