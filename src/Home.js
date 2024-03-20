@@ -130,10 +130,11 @@ function Home() {
         </Grid>
       </Grid>
 
-      <Typography variant="h4" align="center" fontWeight="bold" style={{ marginTop: '48px', color:'rgb(101,81,81)' }}>Featured Ads</Typography>
+      <Typography variant="h4" align="center" fontWeight="bold" style={{ marginTop: '48px', color:'rgb(101,81,81)'}}>Featured Ads</Typography>
 
-      <Grid container spacing={16} justifyContent="center" style={{ marginTop: '4px' }} >
-      <Grid item xs={3.5}>
+      <div style={{ margin: '0 -4px' }}>
+      <Grid container spacing={8} justifyContent="center" style={{ marginTop: '4px' }} >
+      <Grid item xs={3}>
       <Link to="/featured-ad-1" style={{ textDecoration: 'none', color: 'inherit' }}>
         <Paper elevation={3} style={{ padding: 0, margin: 0, position: 'relative' }}>
           <IconButton
@@ -159,7 +160,7 @@ function Home() {
         </Paper>
         </Link>
       </Grid>
-      <Grid item xs={3.5}>
+      <Grid item xs={3}>
       <Link to="/featured-ad-1" style={{ textDecoration: 'none', color: 'inherit' }}>
         <Paper elevation={3} style={{ padding: 0, margin: 0, position: 'relative' }}>
           <IconButton
@@ -185,7 +186,7 @@ function Home() {
         </Paper>
         </Link>
       </Grid>
-      <Grid item xs={3.5}>
+      <Grid item xs={3}>
       <Link to="/featured-ad-1" style={{ textDecoration: 'none', color: 'inherit' }}>
         <Paper elevation={3} style={{ padding: 0, margin: 0, position: 'relative' }}>
           <IconButton
@@ -211,7 +212,34 @@ function Home() {
         </Paper>
         </Link>
       </Grid>
+      <Grid item xs={3}>
+      <Link to="/featured-ad-1" style={{ textDecoration: 'none', color: 'inherit' }}>
+        <Paper elevation={3} style={{ padding: 0, margin: 0, position: 'relative' }}>
+          <IconButton
+             style={{ 
+              position: 'absolute',
+              top: '0',
+              right: '0',
+              backgroundColor: 'green',
+              color: 'black',
+              width: '30px', 
+              height: '30px', 
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              borderRadius: '5px' 
+             }}
+          >
+            <StarIcon />
+          </IconButton>
+          <img src="img13.png" alt="Featured Ad 2" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+          <Typography variant="body1" align="center" fontWeight="bold">30 Perch Land Kalutara</Typography>
+          <Typography variant="body2" align="center">Rs. 9000000.00</Typography>
+        </Paper>
+        </Link>
+      </Grid>
     </Grid>
+    </div>
 
 <div style={{ display: 'flex', justifyContent: 'center' }}>
    <Button 
@@ -240,7 +268,7 @@ style={{
 >Recomended Ads
 </Typography>
 
-<Grid container spacing={3} justifyContent="center" style={{ marginTop: '16px' }}>
+<Grid container spacing={3} justifyContent="center" style={{ marginTop: '16px', width: 'calc(100% + 40px)', marginLeft: '-20px', marginRight: '-20px'}}>
   <Grid item xs={10}  style={{ height: '275px' }}>
   <Link to="/featured-ad-1" style={{ textDecoration: 'none', color: 'inherit' }}>
     <Paper elevation={3} style={{ padding: '20px', marginBottom: '16px', display: 'flex' }}>
