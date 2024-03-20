@@ -17,7 +17,7 @@ const linkStyle = {
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: 'rgb(176,12,12)', color: '#fff', padding: '20px 0' }}>
+    <footer style={{ backgroundColor: 'rgb(94,10,10)', color: '#fff', padding: '20px 0' }}>
       <Grid container justifyContent="space-between" alignItems="center">
         <Grid item xs={3} style={{ marginLeft: '20px'}}>
           <Typography variant="body1" fontWeight="bold">Overview</Typography>

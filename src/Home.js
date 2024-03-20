@@ -212,32 +212,6 @@ function Home() {
         </Paper>
         </Link>
       </Grid>
-      <Grid item xs={3}>
-      <Link to="/featured-ad-1" style={{ textDecoration: 'none', color: 'inherit' }}>
-        <Paper elevation={3} style={{ padding: 0, margin: 0, position: 'relative' }}>
-          <IconButton
-             style={{ 
-              position: 'absolute',
-              top: '0',
-              right: '0',
-              backgroundColor: 'green',
-              color: 'black',
-              width: '30px', 
-              height: '30px', 
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              borderRadius: '5px' 
-             }}
-          >
-            <StarIcon />
-          </IconButton>
-          <img src="img13.png" alt="Featured Ad 2" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
-          <Typography variant="body1" align="center" fontWeight="bold">30 Perch Land Kalutara</Typography>
-          <Typography variant="body2" align="center">Rs. 9000000.00</Typography>
-        </Paper>
-        </Link>
-      </Grid>
     </Grid>
     </div>
 
